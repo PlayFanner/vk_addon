@@ -6,15 +6,12 @@
 
 # Установка VkAddon
 
-	```sh
 	pip install vk_addon
-	```
 
 # Работа с VkAddon
 
 Для работы нужно импортировать библиотеку и подключить ее в своего бота
 
-	```py
 	import vk_api, vk_addon
 	from vk_addon.get_random_id import random_id
 	from vk_api.bot_longpoll import VkBotEventType, VkBotLongPoll
